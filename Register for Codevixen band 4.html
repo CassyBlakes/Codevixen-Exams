@@ -1,23 +1,34 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <title>Home</title>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width" />
-    <!--
-      Need a visual blank slate?
-      Remove all code in `styles.css`!
-    -->
-    <link rel="stylesheet" href="styles.css" />
-    <script type="module" src="script.js"></script>
-  </head>
-  <body>
-    <nav>
-      <a href="/" aria-current="page">Home</a>
-      <a href="/page2.html">Other page</a>
-    </nav>
-    <main>
-      <h1>Home page</h1>
-    </main>
-  </body>
-</html>
+<html>
+    <head>
+        <title>Register for Band 4</title>
+    </head>
+    <body>
+        <h1>Register for Codevixen Band 4 Training</h1>
+        <form>
+            <input type="text" id="First name" name=" First name" placeholder=" First name" required/>
+            <input type="text" id="Last name" name=" Last name" placeholder=" Last name" required/><br>
+
+            <input type="Email Address" id="Email Address" name="Email Address" placeholder="Email Address" required/><br>
+            
+            <input type="Phone Number" id="Phone Number" name="Phone Number" placeholder="Phone Number" required/><br>
+
+            <input type="Country" id="Country" name="Country" placeholder="Country" required/><br>
+
+            <label for="gender">What is your Gender?</label>
+            <input type="radio" name="gender" value="Male"/>Male
+            <input type="radio" name="gender" value="Female"/>Female<br>
+
+            <label for="About us"> Where Did You Hear About Us</label>
+            <select name="About us" id="">
+                <option value="Twitter">Twitter</option>
+                <option value="facebook">facebook</option>
+                <option value="IG">IG</option>
+            </select><br>
+
+            <textarea name="" id="" maxlength="100" cols="30" rows="10">Tell us about yourself</textarea><br>
+
+            <button type="submit" name="submit"> Submit Details</button>
+
+        </form>
+    </body>
